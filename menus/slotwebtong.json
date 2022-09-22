@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle slotwebtong",
+        "command": "slotwebtong:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "slotwebtong",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "slotwebtong:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
